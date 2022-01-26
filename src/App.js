@@ -15,7 +15,7 @@ import {
 export default function App() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
         <Container fluid={true}>
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -82,6 +82,7 @@ export default function App() {
           </Carousel.Item>
         </Carousel>
 
+        {/** Modal */}
         <Example />
 
         {/** Cards */}
